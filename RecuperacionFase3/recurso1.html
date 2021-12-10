@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/misEstilos.css">
+</head>
+
+<body>
+    <!-- Sección del encabezado -->
+    <header>
+        <img src="img/HTML5.jpg" alt="Imagen de logo" height="100" width="200">
+        <h1>Etiquetas Básicas de HTML, Atributos Y Valores</h1>
+        <img src="img/HTML5.jpg" alt="Imagen de logo" height="100" width="200">
+    </header>
+
+    <!-- Barra de navegación horizontal -->
+    <nav>
+        <ul class="menu">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="#">Temas</a>
+                <ul class="dropdown">
+                    <li><a href="tema1.html">Etiquetas Básicas de HTML</a></li>
+                    <li><a href="tema2.html">Atributos Y Valores</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Recursos</a>
+                <ul class="dropdown">
+                    <li><a href="recurso1.html">Texto y Audio Explicativo</a></li>
+                    <li><a href="recurso2.html">Video Explicativo</a></li>
+                </ul>
+            <li><a href="autor.html">Autor</a></li>
+        </ul>
+    </nav>
+
+    <!-- Seccion central -->
+
+    <div class="contenedor">
+        <aside>
+            <h4>Fan page</h4>
+            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Ffacebook.com%2FMinisterioTIC.Colombia%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+        </aside>
+        <section>
+            <article class="justificado">
+                <h1>Etiquetas Básicas de HTML, Atributos Y Valores</h1>
+                <img src="img/Etiquetas_en_HTML.png" alt="Imagen de logo" height="250" width="530">
+                <p>
+                    HTML es un lenguaje de marcado que nos permite indicar la estructura de nuestro documento mediante etiquetas. Este lenguaje nos ofrece una gran adaptabilidad, una estructuración lógica y es fácil de interpre­tar tanto por humanos como por máquinas. El lenguaje HTML basa su filosofía de desarrollo en la diferenciación. Para añadir un elemento externo a la página (imagen, vídeo, script, entre otros.), este no se incrusta directamente en el código de la página, sino que se hace una referencia a la ubicación de dicho elemento mediante texto. De este modo, la página web contiene solamente texto mientras que recae en el navegador web (interpretador del código) la tarea de unir todos los elementos y visualizar la página final. Al ser un estándar, HTML busca ser un lenguaje que permita que cualquier página web escrita en una determinada versión, pueda ser interpretada de la misma forma (estándar) por cualquier navegador web actualizado.
+                </p>
+            </article>
+            <article class="centrado">
+                <h3>Audio Narracíon del Texto:</h3>
+                <audio controls>
+                    <source src="multimedia/Recurso1Html.m4a" type="audio/ogg">
+                    Your browser does not support the audio element.
+                </audio>
+            </article>
+        </section>
+
+    </div>
+    <!-- Pie de página -->
+    <footer>
+        <p> © Copyleft miOrganización.org | fecha de actualización: 10/12/21 <br>
+            Presentación de Diseños de Sitios Web HTML5 y programación hecho a mano por nosotros usando herramientas de Software Libre | Editado Por el Ing. Josué Ríos | Info: 312055569 
+
+        </p>
+    </footer>
+</body>
+
+</html>
